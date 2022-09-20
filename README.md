@@ -83,7 +83,7 @@ public class PlayerStartDecision : SMDecision
 <img src="https://github.com/Hushigoeuf/Hushigoeuf-StateMachineWithZenject/blob/main/Common/MonoDebugger.png" width="320px">
 
 ## Пример использования в рамках небольшой игры
-Здесь представлен пример использования машины состояний на примере простейшей игры, где надо управлять случайной фигурой и правильно соединить ее с похожей фигурой, при этом уклоняясь от врагов. В игре нет ничего такого, это простейшее демо с использование машины состояний и Zenject (Binding, Factories, Pools).
+Здесь представлен пример использования машины состояний на примере простейшей игры, где надо управлять случайной фигурой и правильно соединить ее с похожей фигурой, при этом уклоняясь от врагов. В игре нет ничего такого, это простейшее демо с использование машины состояний и Zenject (Binding, Factories, Pools, Signals).
 
 <img src="https://github.com/Hushigoeuf/Hushigoeuf-StateMachineWithZenject/blob/main/Common/Demonstration.gif" width="640px">
 
