@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e6374fcf3a4d1990cb9a74d85d1eee, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  _playerSettings:
+    PlayerPrefab: {fileID: 7007185152935600524, guid: 2023488727de6404fada5335ea55d26e, type: 3}
+    JumpTargetPrefab: {fileID: 6953810659419367312, guid: 32e4189aa10cdd14290c476a2f494203, type: 3}
+    FallingSettings:
+      Speed: 4
+    JumpingSetting:
+      StartSpeed: 8
+      StartOverlapSpeed: 12
+      SpeedDeceleration: 8
+      ReverseDirectionEveryTime: 1
+    RotationSettings:
+      MaxSpeedFromStart: 120
+      MaxOverlapSpeedFromStart: 180
+      SpeedDeceleration: 60
+      MinSpeedToStop: 30
+    ShapeOverlapSettings:
+      MaxDistance: 0.2
+      MaxAngle: 20
+  _inputSettings:
+    JumpKey: 323
+    JumpAltKey: 32
+  _shapeSettings:
+    FactorySettings:
+      Prefabs:
+      - PlayerShape: {fileID: 1338812838786187889, guid: 8dede077d40a4b046be0f4516779c1b2, type: 3}
+        JumpTargetShape: {fileID: 2079625481999178013, guid: ef3918db002c2f5438c7a96d415524a1, type: 3}
+      - PlayerShape: {fileID: 3041830546695469248, guid: 9110b9c9c414d834f912773638dcf106, type: 3}
+        JumpTargetShape: {fileID: 5756795430311331404, guid: d13d558e093cb9e46bb92673085f690d, type: 3}
+      - PlayerShape: {fileID: 7752654947458453442, guid: 88d1b6b46582e9044ba9483d5ddbfbbf, type: 3}
+        JumpTargetShape: {fileID: 2885858473404173110, guid: b4834857e5a1f624887f885fe373ea54, type: 3}
+      - PlayerShape: {fileID: 8750650181849151495, guid: f4fefa454e584974c9bc4a264d8605eb, type: 3}
+        JumpTargetShape: {fileID: 326827374991283845, guid: 174216c4adba5c448b40bf8d560262de, type: 3}
+      - PlayerShape: {fileID: 925029162943541753, guid: 97ad80af763cd6f43bb7e0ebf1a73efc, type: 3}
+        JumpTargetShape: {fileID: 5875846647072853323, guid: 23cb2b703f8d8764b8e69b7b78c2e5da, type: 3}
+      - PlayerShape: {fileID: 1325537264483664037, guid: 2052bf656a0693d4dac3cb27fce58cc5, type: 3}
+        JumpTargetShape: {fileID: 3051458903088351034, guid: a660f0ffdb36d204d986c6b51499bd79, type: 3}
+      - PlayerShape: {fileID: 6628476450544060969, guid: f70c33444ba03404ea3a1db9930ed440, type: 3}
+        JumpTargetShape: {fileID: 3688331527528910764, guid: 8acc447904d15ff46b57d0f0fa8b6ad2, type: 3}
+  _enemySettings:
+    EnemyPrefab: {fileID: 1108517366638957978, guid: baa0e8358aa703946a08405b140de3a8, type: 3}
+    SpawnSettings:
+      DelayBeforeStartSpawns: 4
+      MinDelayBetweenSpawns: 4
+    MovementSettings:
+      MinRandomSpeed: 2
+      MaxRandomSpeed: 2
+    RotationSettings:
+      Speed: 180
